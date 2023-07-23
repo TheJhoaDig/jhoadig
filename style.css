@@ -1,0 +1,326 @@
+*{
+	font-family: 'lobster' , cursive;
+	font-weight: 100;
+	font-size: 20px;
+
+}
+
+ /*=======================================================================
+     outline and border*/
+
+	
+
+/*div{
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	display: inline-block;
+
+}
+ .caja3{
+ 	outline: 5px double blue;
+ 	position: relative;
+
+ }*/
+
+ /* =======================================================================
+ position*/
+
+/*div{
+	position: absolute;
+	background: lightpink;
+	width: 100px;
+	height: 100px;
+
+	}
+
+	.contenedor{
+		position: relative;
+		border: 5px double grey ;
+		width: 450px;
+		height: 450px;
+		margin: 50px auto;
+		background: lightcoral;
+	}
+
+.caja1{
+
+
+}
+
+.caja2{
+
+right: 0;
+
+}
+
+.caja3{
+
+right: 0;
+bottom:0 ;
+
+}
+
+.caja4{
+bottom: 0;	
+
+}
+
+.caja5{
+bottom: 0;
+left: 0;
+top: 0;
+right: 0;
+margin: auto;
+}*/
+
+
+
+
+
+
+/* =======================================================================
+   fixed */
+
+  /*body{
+  	padding-top: 100px;
+  }
+
+.caja-fixed{
+	background: skyblue;
+	position: fixed;
+	margin: -100px;
+	}*/
+
+/* =======================================================================
+sticky */
+
+/*.caja-fixed{
+	background: slateblue;
+	position: sticky;
+	top:0 ;
+}*/
+  
+
+ /*=======================================================================
+   overflow */
+
+/*div{
+	margin:auto;
+	margin-top: 50px;
+	width: 320px;
+	height: 350px;
+	border: 10px groove red;
+	background: grey;
+	overflow: auto;
+
+}*/
+
+   
+
+
+
+
+   /* =======================================================================
+   float */
+
+/*.cont{
+	margin:auto;
+	width: 600px;
+	border: 5px dashed; red;
+	background: grey;
+	margin-top: 50px;
+	padding: 10px;	
+
+	}
+	.cont p{
+		float: left;
+		
+	}
+
+.cont img{
+	float: left;
+
+	width: 250px;
+	margin-right: 18px;
+}*/
+
+
+/* =======================================================================
+   pseudoelementos*/
+
+/* ::first-line and first-letter*/
+
+/*.texto{
+padding: 20px;
+}
+
+.texto::first-letter {
+color: blue;
+font-size: 80px;
+}*/
+
+/* ::placeholder  ::selection*/
+
+/*form{
+	margin: 100px auto;
+	display: block;
+	background-color: lightcoral;
+	padding: 20px;
+	width: 70%;
+	box-shadow: 10px 10px 10px darkgrey;
+
+}
+
+input{
+	padding:6px;
+	width: 100%;
+
+}
+
+input::placeholder {
+font-family: sans-serif;
+font-size: 15px;
+}
+
+h1::selection {
+color: white;
+background-color: black;
+}*/
+
+
+   /* =======================================================================
+   ::after ::before */
+
+  /*form{
+  	margin: 50px auto;
+  	padding: 40px;
+  	width: 50%;
+  	background: grey;
+
+  } 
+
+b::before {
+	content: "Me suscribi" ;
+	color: white;
+}
+
+b::after {
+	content: "a todo tendencias";
+	color: lightblue;
+}*/
+
+
+
+
+   /* =======================================================================
+   pseudoclases */
+
+   /* :hover 
+
+   .caja1{
+   	
+   margin:20px;
+   padding: 10px;
+   	background: skyblue;
+   	border: hidden;
+   	display: inline-block;
+   	transition: .1s;
+   }
+
+   .caja1:hover{
+   	background: darkblue;
+   	color: white;
+   	padding: 15px;}*/
+
+
+   /* :link  */	
+  /* a:link{
+   color: red;
+
+   }
+
+   a:visited{
+   color: blue;}*/
+
+
+  /*active*//*barra azul rojo*/
+
+  /*.caja{
+  	width: 300px;
+  	height: 300px;
+  	background: red;
+  	margin:79px ;
+
+
+  }
+
+  .caja:active{
+  	background-color: blue;
+  	width: 600px;
+  	transition: all 1s ;
+
+  }*/
+
+
+
+
+   /* =======================================================================
+   object-fit: fil */
+
+   /*.caja1{
+   	margin: 25px;
+   	width:400px ;
+   	height: 700px;
+
+   }
+
+   .caja1 img{
+   	width:100% ;
+   	height: 100%;
+   	border: 2px solid red;
+   	/*object-fit:*//*contain*/ /*none*/ /*scale-down*//*cover}*/
+
+/*mismo link imagen*/
+
+
+/*.caja1{
+width: 200px;
+height: 300px;
+display: inline-block;
+
+
+
+}
+
+.caja div{
+
+}
+
+.caja1 img{
+	width: 100%;
+	height: 100%;
+	border: 3px solid red;
+	object-fit:cover ;
+}*/
+
+
+
+ /* =======================================================================
+   cursor */
+   .caja-cambio-mouse{
+   	margin:60px;
+   	width: 600px;
+   	height: 800px;
+   	background-color: silver;
+   	border: groove black;
+   	cursor: wait;
+   }
+
+
+
+
+
+
+ /* =======================================================================
+   float */
