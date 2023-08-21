@@ -1,0 +1,62 @@
+form{
+	margin: 100px auto;
+	display: block;
+	background-color: #0ED2F7;
+	padding: 20px;
+	width: 70%;
+	box-shadow: 10px 10px 10px darkgrey;
+    
+
+}
+
+.contact1{
+    font-size: 40px;
+    text-align: center;
+
+}
+
+input{
+	padding:6px;
+	width: 100%;
+
+}
+
+input::placeholder {
+font-family: sans-serif;
+font-size: 15px;
+}
+
+h1::selection {
+color: white;
+background-color: black;
+}
+
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    form {
+        width: 45%; /* Cambia el ancho del formulario en pantallas más pequeñas */
+        margin-top: 30px;
+    }
+
+    input {
+        padding: 8px; /* Ajusta el relleno de los inputs */
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    form {
+        width: 80%; /* Cambia el ancho del formulario en pantallas muy pequeñas */
+        box-shadow: none;
+    }
+    .contact1{
+        font-size: 25px;
+    }
+
+    body{
+        background: #0ED2F7;
+        
+    }
+}
