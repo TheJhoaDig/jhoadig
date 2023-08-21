@@ -182,10 +182,7 @@ header{
     position:absolute;
     width: 100%;
     height: 70%;
-    /*background: #18b69a;*/
-    /*background: #ddd6f3; fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #0ED2F7, #f5f4f0);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #0ED2F7, #f5f4f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, #0ED2F7, #f5f4f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
